@@ -14,7 +14,7 @@ app.use(express.json())
 app.use("/books", bookRoutes)
 connectDB().then(()=>{
 app.listen(port, () =>{
-    console.log(`http://localhost:${port}/books`)
+    // console.log(`http://localhost:${port}/books`)
 })
 })
 // app.get('/',(req,res)=>{
